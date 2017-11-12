@@ -24,10 +24,44 @@
 		<!--[if lte IE 8]><link rel="stylesheet" href="{{ site.baseurl }}/assets/css/ie/v8.css" /><![endif]-->
 	</head>
 	<body>
-
+		
 		<!-- Header -->
 			<div id="header">
-						
+									<!-- Nav -->
+				
+		<nav id="nav">
+				
+				<ul>
+					{% assign current = page.url | downcase | split: '/' %}
+					<li {% if current[1] == 'index.html' %}class="current"{% endif %}><a href="{{ site.baseurl }}/index.html">Home</a></li>
+					<li>
+						<a href="">Visualization Dropdown</a>
+						<ul>
+							<li {% if current[1] == 'viz1.html' %}class="current"{% endif %}><a href="{{ site.baseurl }}/viz1.html">Visualization 1</a></li>
+							<li {% if current[1] == 'viz2.html' %}class="current"{% endif %}><a href="{{ site.baseurl }}/viz2.html">Visualization 2</a></li>
+							<li><a href="#">Tableau Dashboard 3</a></li>
+							<li>
+								<a href="">Submenu</a>
+								<ul>
+									<li><a href="#">Lorem dolor</a></li>
+									<li><a href="#">Phasellus magna</a></li>
+									<li><a href="#">Magna phasellus</a></li>
+									<li><a href="#">Etiam nisl</a></li>
+									<li><a href="#">Veroeros feugiat</a></li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li {% if current[1] == 'blog' %}class="current"{% endif %}><a href="{{ site.baseurl }}/blog">Blog</a></li>
+					<!-- <li {% if current[1] == 'left-sidebar.html' %}class="current"{% endif %}><a href="{{ site.baseurl }}/left-sidebar.html">Left Sidebar</a></li>
+					<li {% if current[1] == 'right-sidebar.html' %}class="current"{% endif %}><a href="{{ site.baseurl }}/right-sidebar.html">Right Sidebar</a></li>
+					<li {% if current[1] == 'two-sidebar.html' %}class="current"{% endif %}><a href="{{ site.baseurl }}/two-sidebar.html">Two Sidebar</a></li> -->
+					<li {% if current[1] == 'viz1.html' %}class="current"{% endif %}><a href="{{ site.baseurl }}/viz1.html">Visualization 1</a></li>
+					<li {% if current[1] == 'viz2.html' %}class="current"{% endif %}><a href="{{ site.baseurl }}/viz2.html">Visualization 2</a></li>
+
+				</ul>
+			
+			</nav>
 				<!-- Logo -->
 
 					<div class="container">
@@ -35,8 +69,8 @@
 						<div class="12u">
 							<div class="row collapse-at-2">
 								<section class="4u">
-										<a href="#" class="image left"></a>
-										<img src="{{ site.baseurl }}/assets/images/TASCHAlogo.png" alt="">
+										<!-- <a href="#"></a> -->
+										<img src="{{ site.baseurl }}/assets/images/TASCHAlogo.png" alt="" style="width:128px;height:128px;float:right;vertical-align:middle;margin:0px 0px 25px 0px;">
 								</section>
 
 								<section class="4u">
@@ -44,51 +78,24 @@
 								</section>
 
 								<section class="4u">
-										<a href="#" class="image right"></a>
-										<img src="{{ site.baseurl }}/assets/images/GenericLogo.png" alt="">
+										<!-- <a href="#"></a> -->
+										<img src="{{ site.baseurl }}/assets/images/GenericLogo.png" alt="" style="width:128px;height:128px;float:left;vertical-align:middle;margin:0px 0px 25px 0px;">
 								</section>
 							</div>
 						</div>
 						
 					</div> 
-				</div> 
+				
 				
 				<!-- <a href="#" class="image left"></a>
 					<img src="{{ site.baseurl }}/assets/images/TASCHAlogo.png" alt="">
 				</a>
 					<h1 style="color:#F8F8F8;"><a href="{{ site.baseurl }}/index.html" id="logo">Mobile Reading Data Exchange</a></h1>
 				 -->
-				<!-- Nav -->
-					<nav id="nav">
-						<ul>
-							{% assign current = page.url | downcase | split: '/' %}
-							<li {% if current[1] == 'index.html' %}class="current"{% endif %}><a href="{{ site.baseurl }}/index.html">Home</a></li>
-							<li>
-								<a href="">Visualization Dropdown</a>
-								<ul>
-									<li {% if current[1] == 'viz1.html' %}class="current"{% endif %}><a href="{{ site.baseurl }}/viz1.html">Visualization 1</a></li>
-									<li {% if current[1] == 'viz2.html' %}class="current"{% endif %}><a href="{{ site.baseurl }}/viz2.html">Visualization 2</a></li>
-									<li><a href="#">Tableau Dashboard 3</a></li>
-									<li>
-										<a href="">Submenu</a>
-										<ul>
-											<li><a href="#">Lorem dolor</a></li>
-											<li><a href="#">Phasellus magna</a></li>
-											<li><a href="#">Magna phasellus</a></li>
-											<li><a href="#">Etiam nisl</a></li>
-											<li><a href="#">Veroeros feugiat</a></li>
-										</ul>
-									</li>
-								</ul>
-							</li>
-							<li {% if current[1] == 'blog' %}class="current"{% endif %}><a href="{{ site.baseurl }}/blog">Blog</a></li>
-							<!-- <li {% if current[1] == 'left-sidebar.html' %}class="current"{% endif %}><a href="{{ site.baseurl }}/left-sidebar.html">Left Sidebar</a></li>
-							<li {% if current[1] == 'right-sidebar.html' %}class="current"{% endif %}><a href="{{ site.baseurl }}/right-sidebar.html">Right Sidebar</a></li>
-							<li {% if current[1] == 'two-sidebar.html' %}class="current"{% endif %}><a href="{{ site.baseurl }}/two-sidebar.html">Two Sidebar</a></li> -->
-							<li {% if current[1] == 'viz1.html' %}class="current"{% endif %}><a href="{{ site.baseurl }}/viz1.html">Visualization 1</a></li>
-							<li {% if current[1] == 'viz2.html' %}class="current"{% endif %}><a href="{{ site.baseurl }}/viz2.html">Visualization 2</a></li>
-
-						</ul>
-					</nav>
+				
+				
 
 			</div>
+
+
+		</div> 

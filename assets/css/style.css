@@ -576,7 +576,7 @@
 		text-align: center;
 		padding: 2em 0 0 0;
 		background-color: #545454;
-		margin-top: 30px; /* Add a top margin to avoid content overlay */
+		margin-top: 25px; /* Add a top margin to avoid content overlay */
 		/* background-image: url("images/bg02.png"), url("images/bg02.png"), url("images/bg01.png");
 		background-position: top left,					top left,					top left;
 		background-size: 100% 6em,					100% 6em,					auto;
@@ -593,7 +593,7 @@
 	}
 
 		#header h1 {
-			padding: 0 0 2.75em 0;
+			padding: 0 0 0em 0;
 			margin: 0;
 		}
 
@@ -776,7 +776,7 @@
 /* Wrapper */
 
 	.wrapper {
-		padding: 5em 0 3em 0;
+		padding: 2em 0 2em 0;
 	}
 
 		.wrapper.style1 {
@@ -831,7 +831,7 @@
 /* Footer */
 
 	#footer {
-		padding: 4em 0 8em 0;
+		padding: 2em 0 2em 0;
 	}
 
 		#footer a {

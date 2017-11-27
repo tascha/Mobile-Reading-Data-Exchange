@@ -29,7 +29,7 @@
 
 	body, input, select, textarea {
 		color: #474747;
-		font-family: 'Source Sans Pro', sans-serif;
+		font-family: 'Corbel', 'Calibri', sans-serif;
 		font-size: 16pt;
 		font-weight: 300;
 		line-height: 1.65em;
@@ -41,13 +41,13 @@
 		-o-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, opacity 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, opacity 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, opacity 0.2s ease-in-out;
-		color: #37c0fb;
+		color: #034661;
 		text-decoration: none;
 		border-bottom: dotted 1px;
 	}
 
 		a:hover {
-			color: #37c0fb;
+			color: #034661;
 			border-bottom-color: transparent;
 		}
 
@@ -254,6 +254,32 @@
 				width: 100%;
 			}
 
+			.image.logo {
+				display: block;
+				float: left;
+				clear:left;
+				margin: 2em;
+				position: relative;
+				top: 0.25em;
+			}
+
+			.image.logo img {
+				max-width: 175px;
+			}
+
+			.image.thumb {
+				display: block;
+				float: none;
+				clear:left;
+				margin: 2em;
+				position: relative;
+				top: 0.25em;
+			}
+
+			.image.thumb img {
+				max-width: 150px;
+			}
+
 			.image.right {
 				display: block;
 				float: right;
@@ -285,6 +311,9 @@
 				display: block;
 				width: 100%;
 			}
+
+
+
 
 /* Icon */
 
@@ -331,21 +360,21 @@
 
 /* Lists */
 
-	ol.default {
+	ol {
 		list-style: decimal;
 		padding-left: 1.25em;
 	}
 
-		ol.default li {
+		ol li {
 			padding-left: 0.25em;
 		}
 
-	ul.default {
-		list-style: disc;
+	ul {
+		list-style-type: disc;
 		padding-left: 1em;
 	}
 
-		ul.default li {
+		ul li {
 			padding-left: 0.5em;
 		}
 
@@ -426,6 +455,7 @@
 			}
 
 			table.default td {
+				vertical-align: top;
 				padding: 0.5em 1em 0.5em 1em;
 			}
 
@@ -868,4 +898,13 @@
 			font-size: 0.9em;
 		}
 
+/* Footnotes */
+
+		a.footnote:before {   
+			content: "[";
+		   }
+		   
+		   a.footnote:after {
+			   content: "]";
+		   }
 

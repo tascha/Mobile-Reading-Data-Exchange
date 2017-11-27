@@ -26,15 +26,17 @@
 	<body>
 		
 		<!-- Header -->
-			<div id="header">
-									<!-- Nav -->
+		<div id="header">
+		<!-- Nav -->
 				
 		<nav id="nav">
 				
 				<ul>
 					{% assign current = page.url | downcase | split: '/' %}
 					<li {% if current[1] == 'index.html' %}class="current"{% endif %}><a href="{{ site.baseurl }}/index.html">Home</a></li>
-					<li>
+					<li {% if current[1] == 'team' %}class="current"{% endif %}><a href="{{ site.baseurl }}/team.html">People</a></li>
+					<li {% if current[1] == 'blog' %}class="current"{% endif %}><a href="{{ site.baseurl }}/blog">Blog</a></li>
+					<!-- <li>
 						<a href="">Visualization Dropdown</a>
 						<ul>
 							<li {% if current[1] == 'viz1.html' %}class="current"{% endif %}><a href="{{ site.baseurl }}/viz1.html">Visualization 1</a></li>
@@ -51,14 +53,8 @@
 								</ul>
 							</li>
 						</ul>
-					</li>
-					<li {% if current[1] == 'blog' %}class="current"{% endif %}><a href="{{ site.baseurl }}/blog">Blog</a></li>
-					<!-- <li {% if current[1] == 'left-sidebar.html' %}class="current"{% endif %}><a href="{{ site.baseurl }}/left-sidebar.html">Left Sidebar</a></li>
-					<li {% if current[1] == 'right-sidebar.html' %}class="current"{% endif %}><a href="{{ site.baseurl }}/right-sidebar.html">Right Sidebar</a></li>
-					<li {% if current[1] == 'two-sidebar.html' %}class="current"{% endif %}><a href="{{ site.baseurl }}/two-sidebar.html">Two Sidebar</a></li> -->
-					<li {% if current[1] == 'viz1.html' %}class="current"{% endif %}><a href="{{ site.baseurl }}/viz1.html">Visualization 1</a></li>
-					<li {% if current[1] == 'viz2.html' %}class="current"{% endif %}><a href="{{ site.baseurl }}/viz2.html">Visualization 2</a></li>
-
+					</li> -->
+					
 				</ul>
 			
 			</nav>
@@ -69,33 +65,15 @@
 						<div class="12u">
 							<div class="row collapse-at-2">
 								<section class="4u">
-										<!-- <a href="#"></a> -->
-										<img src="{{ site.baseurl }}/assets/images/TASCHAlogo.png" alt="" style="width:128px;height:128px;float:right;vertical-align:middle;margin:0px 0px 15px 0px;">
+										<img src="{{ site.baseurl }}/assets/images/TASCHA_logo_stacked_white.png" alt="" style="max-width:275px;float:right;vertical-align:middle;margin:0px 0px 15px 0px;">
 								</section>
 
 								<section class="8u">
 										<h1 style="color:#F8F8F8; text-align:left; font-size:150%; margin:40px 0px 0px 0px;"><a href="{{ site.baseurl }}/index.html" id="logo">Mobile Reading Data Exchange</a></h1>		
 								</section>
-
-								<!-- <section class="4u">
-										<a href="#"></a>
-										<img src="{{ site.baseurl }}/assets/images/GenericLogo.png" alt="" style="width:128px;height:128px;float:left;vertical-align:middle;margin:0px 0px 25px 0px;">
-								</section> -->
 							</div>
 						</div>
 						
 					</div> 
-				
-				
-				<!-- <a href="#" class="image left"></a>
-					<img src="{{ site.baseurl }}/assets/images/TASCHAlogo.png" alt="">
-				</a>
-					<h1 style="color:#F8F8F8;"><a href="{{ site.baseurl }}/index.html" id="logo">Mobile Reading Data Exchange</a></h1>
-				 -->
-				
-				
-
 			</div>
-
-
 		</div> 

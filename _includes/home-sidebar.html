@@ -1,0 +1,26 @@
+<div id="sidebar">
+
+	<!-- Sidebar -->
+	
+	<h3>Our Research Partners</h3>
+	
+	<a class="image thumb"><img src="{{ site.baseurl }}/assets/images//worldreader-logo-horizontal.png" alt="" /></a>
+	<a class="image thumb"><img src="{{ site.baseurl }}/assets/images//tableau-logo-horizontal.jpg" alt="" /></a>
+	<a class="image thumb"><img src="{{ site.baseurl }}/assets/images//ischool-primary-purple-web.png" alt="" /></a>
+	<a class="image thumb"><img src="{{ site.baseurl }}/assets/images//datalab-logo.png" alt="" /></a>
+	<br><br>
+
+	<!-- Blog Post Snippets | Delete or comment out if no blog -->
+	<h3>Read About:</h3>
+	{% for post in site.posts offset: 0 limit: 2 %}
+		<section>
+			<h4>{{ post.title }}</h4>
+			<p style="font-size:14px"><time itemprop="dateCreated" datetime="{{post.date}}">{{ post.date | date:"%B %-d, %Y" }}</time></p>
+			<p style="font-size:14px">{{ post.excerpt | strip_html }}</p>
+			<footer>
+				<a href="{{ site.baseurl }}{{ post.url }}" class="button">Continue Reading</a>
+			</footer>
+		</section>
+	{% endfor %}
+	
+</div>

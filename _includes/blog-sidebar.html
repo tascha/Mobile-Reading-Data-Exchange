@@ -1,0 +1,16 @@
+<div id="sidebar">
+
+	<!-- Sidebar -->
+<!-- Blog Post Snippets | Delete or comment out if no blog -->
+<h4 style="padding-top: 18px;">Blog Index:</h4>
+<ul>
+{% for post in site.posts offset: 0 limit: 12 %}
+	<section>
+		<li><a href="{{ post.url }}" style="font-size:14px;"><time itemprop="dateCreated" datetime="{{post.date}}">{{ post.date | date:"%B %-d, %Y" }}</time>: {{ post.title }}</a></li>
+	</section>
+{% endfor %}
+</ul>
+
+
+	
+</div>

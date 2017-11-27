@@ -1,27 +1,33 @@
 ---
 title: Blog
 layout: default
+pagination: 
+    enabled: true
 ---
 
 <!-- Main -->
-	<section class="wrapper style1">
+<section class="wrapper style1">
 		<div class="container">
-			<div id="content">
-				<div class="row">
-					<div class="12u">
+			<div class="row double">
+				<div class="3u">
+					{% include blog-sidebar.html %}
+				</div>
+				<div class="9u skel-cell-important">
+					<div id="content">
 
 						<!-- Blog -->
 							<section>
 								<header class="major">
-									<h2>The Blog</h2>
+									<h2 style="text-align: left;">Follow our progress:</h2>
 								</header>
-								{% for post in site.posts offset: 0 limit: 4 %}
+								{% for post in paginator.posts %}
 									<div class="row">
-										<section class="12u">
+										<section class="9u">
 											<div class="box post">
-												<a href="#" class="image left"><img src="{{ site.baseurl }}{{ post.featured }}" alt=""></a>
+												<a class="image left"><img src="{{ site.baseurl }}{{ post.featured }}" alt=""></a>
 												<div class="inner">
-													<h3>{{ post.title }}</h3>
+													<h3><a href="{{ site.baseurl }}{{ post.url }}" rel="bookmark" title="Permanent Link to {{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+													<time itemprop="dateCreated" datetime="{{post.date}}">{{ post.date | date:"%B %-d, %Y" }}</time>
 													{{ post.excerpt }}
 													<footer>
 														<a href="{{ site.baseurl }}{{ post.url }}" class="button">Continue Reading</a>
@@ -32,6 +38,20 @@ layout: default
 										</section>
 									</div>
 								{% endfor %}
+								{% if paginator.total_pages > 1 %}
+                                <ul>
+                                  {% if paginator.previous_page %}
+                                  <li>
+                                    <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Newer</a>
+                                  </li>
+                                  {% endif %}
+                                  {% if paginator.next_page %}
+                                  <li>
+                                    <a href="{{ paginator.next_page_path | prepend: site.baseurl }}">Older</a>
+                                  </li>
+                                  {% endif %}
+                                </ul>
+                                {% endif %}
 							</section>
 
 					</div>

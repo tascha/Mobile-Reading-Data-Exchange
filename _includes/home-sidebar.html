@@ -20,7 +20,7 @@ We are conducting data analysis and creating visualizations of <a href="https://
 <ul>
 {% for post in site.posts offset: 0 limit: 12 %}
 	<section>
-		<li><a href="{{ post.url }}" style="font-size:14px;"><time itemprop="dateCreated" datetime="{{post.date}}">{{ post.date | date:"%B %-d, %Y" }}</time>: {{ post.title }}</a></li>
+		<li><a href="{{ site.baseurl }}{{ post.url }}" style="font-size:14px;"><time itemprop="dateCreated" datetime="{{post.date}}">{{ post.date | date:"%B %-d, %Y" }}</time>: {{ post.title }}</a></li>
 	</section>
 {% endfor %}
 </ul>	

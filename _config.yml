@@ -6,14 +6,8 @@ tagline: ""
 
 # Build settings
 markdown: kramdown
-plugins: [jekyll-paginate-v2]
-# Pagination Settings
-pagination:
-  enabled: true
-  per_page: 3
-  permalink: '/page/:num/'
-  title_suffix: ' - page :num'
-  limit: 0
-  sort_field: 'date'
-  sort_reverse: true
+-plugins: 
+-- jekyll-paginate-v2
+-paginate: 5
+-paginate_path: '/blog/page:num/'
 

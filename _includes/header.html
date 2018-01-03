@@ -22,6 +22,9 @@
 			<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style-wide.css" />
 		</noscript>
 		<!--[if lte IE 8]><link rel="stylesheet" href="{{ site.baseurl }}/assets/css/ie/v8.css" /><![endif]-->
+		<link type="text/css" rel="stylesheet" href="http://tascha.uw.edu/wp-content/themes/tascha/css/tascha-wrapper.css" />
+			<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+			
 	</head>
 	<body>
 		
@@ -34,13 +37,14 @@
 				<ul>
 					{% assign current = page.url | downcase | split: '/' %}
 					<li {% if current[1] == 'index.html' %}class="current"{% endif %}><a href="{{ site.baseurl }}/index.html">Home</a></li>
+					<li {% if current[1] == 'about.html' %}class="current"{% endif %}><a href="{{ site.baseurl }}/about.html">About</a></li>
 					<li {% if current[1] == 'team' %}class="current"{% endif %}><a href="{{ site.baseurl }}/team.html">People</a></li>
-					<li {% if current[1] == 'blog' %}class="current"{% endif %}><a href="{{ site.baseurl }}/blog">Blog</a></li>
-					<!-- <li>
-						<a href="">Visualization Dropdown</a>
-						<ul>
-							<li {% if current[1] == 'viz1.html' %}class="current"{% endif %}><a href="{{ site.baseurl }}/viz1.html">Visualization 1</a></li>
-							<li {% if current[1] == 'viz2.html' %}class="current"{% endif %}><a href="{{ site.baseurl }}/viz2.html">Visualization 2</a></li>
+					<!-- <li {% if current[1] == 'blog' %}class="current"{% endif %}><a href="{{ site.baseurl }}/blog">Blog</a></li> -->
+					<li>
+						<a href="">Visualizations</a>
+						<ul class="menu">
+							<li {% if current[1] == 'viz1.html' %}class="current"{% endif %}>Under Construction</li>
+							<!-- <li {% if current[1] == 'viz2.html' %}class="current"{% endif %}><a href="{{ site.baseurl }}/viz2.html">Visualization 2</a></li>
 							<li><a href="#">Tableau Dashboard 3</a></li>
 							<li>
 								<a href="">Submenu</a>
@@ -51,9 +55,9 @@
 									<li><a href="#">Etiam nisl</a></li>
 									<li><a href="#">Veroeros feugiat</a></li>
 								</ul>
-							</li>
+							</li> -->
 						</ul>
-					</li> -->
+					</li>
 					
 				</ul>
 			
@@ -62,14 +66,15 @@
 
 					<div class="container">
  					<div class="row ">
+						 
 						<div class="12u">
 							<div class="row collapse-at-2">
 								<section class="4u">
-										<a href="http://tascha.uw.edu/"><img src="{{ site.baseurl }}/assets/images/TASCHA_logo_stacked_white.png" alt="" style="max-width:275px;float:right;vertical-align:middle;margin:0px 0px 15px 0px;"></a>
+										<a href="http://tascha.uw.edu/"><img src="{{ site.baseurl }}/assets/images/TASCHA_logo_leftaligned_white.png" alt="" style="max-width:400px;float:right;vertical-align:middle;margin:0px 0px 15px 0px;"></a>
 								</section>
 
 								<section class="8u">
-										<h1 style="color:#F8F8F8; text-align:left; font-size:150%; margin:40px 0px 0px 0px;"><a href="{{ site.baseurl }}/index.html" id="logo">Mobile Reading Data Exchange</a></h1>		
+										<h1 style="color:#F8F8F8; text-align:left; font-size:150%; margin:20px 0px 10px 0px;"><a href="{{ site.baseurl }}/index.html" id="logo">Mobile Reading Data Exchange</a></h1>		
 								</section>
 							</div>
 						</div>

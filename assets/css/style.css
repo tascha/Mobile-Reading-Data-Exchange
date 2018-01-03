@@ -430,6 +430,7 @@
 	ul.menu li {
 		border-left: solid 1px #e0e0e0;
 		display: inline-block;
+		list-style-type: none;
 		padding: 0 0 0 1em;
 		margin: 0 0 0 1em;
 	}

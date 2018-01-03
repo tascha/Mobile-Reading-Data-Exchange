@@ -1,26 +1,27 @@
 <div id="sidebar">
 
 	<!-- Sidebar -->
-	
-	<h3>Our Research Partners</h3>
-	
-	<a href="https://www.worldreader.org/" class="image thumb"><img src="{{ site.baseurl }}/assets/images//worldreader-logo-horizontal.png" alt=""></a>
-	<a href="https://www.tableau.com/foundation" class="image thumb"><img src="{{ site.baseurl }}/assets/images//tableau-logo-horizontal.jpg" alt="" /></a>
-	<a href="https://ischool.uw.edu/" class="image thumb"><img src="{{ site.baseurl }}/assets/images//ischool-primary-purple-web.png" alt="" /></a>
-	<a href="https://datalab.ischool.uw.edu/" class="image thumb"><img src="{{ site.baseurl }}/assets/images//datalab-logo.png" alt="" /></a>
-	<br><br>
+<h3>Project Overview</h3>
+We are conducting data analysis and creating visualizations of <a href="https://www.worldreader.org/">Worldreader's</a> reading activity logs to unlock stories about mobile reading patterns across the globe.
+<br><br>
 
-	<!-- Blog Post Snippets | Delete or comment out if no blog -->
-	<h3>Read About:</h3>
-	{% for post in site.posts offset: 0 limit: 2 %}
-		<section>
-			<h4>{{ post.title }}</h4>
-			<p style="font-size:14px"><time itemprop="dateCreated" datetime="{{post.date}}">{{ post.date | date:"%B %-d, %Y" }}</time></p>
-			<p style="font-size:14px">{{ post.excerpt | strip_html }}</p>
-			<footer>
-				<a href="{{ site.baseurl }}{{ post.url }}" class="button">Continue Reading</a>
-			</footer>
-		</section>
-	{% endfor %}
-	
+
+<h3>The Research Group</h3>
+
+<a href="http://tascha.uw.edu/" class="image thumb"><img src="{{ site.baseurl }}/assets/images//TASCHA_logo_leftaligned_color.png" alt=""></a>	
+<a href="https://www.worldreader.org/" class="image thumb"><img src="{{ site.baseurl }}/assets/images//worldreader-logo-horizontal.png" alt=""></a>
+<a href="https://www.tableau.com/foundation" class="image thumb"><img src="{{ site.baseurl }}/assets/images//tableau-logo-horizontal.jpg" alt="" /></a>
+<a href="https://ischool.uw.edu/" class="image thumb"><img src="{{ site.baseurl }}/assets/images//ischool-primary-purple-web.png" alt="" /></a>
+<a href="https://datalab.ischool.uw.edu/" class="image thumb"><img src="{{ site.baseurl }}/assets/images//datalab-logo.png" alt="" /></a>
+<br><br>
+
+<!-- Blog Post Snippets | Delete or comment out if no blog -->
+<h3>Blog Index:</h3>
+<ul>
+{% for post in site.posts offset: 0 limit: 12 %}
+	<section>
+		<li><a href="{{ post.url }}" style="font-size:14px;"><time itemprop="dateCreated" datetime="{{post.date}}">{{ post.date | date:"%B %-d, %Y" }}</time>: {{ post.title }}</a></li>
+	</section>
+{% endfor %}
+</ul>	
 </div>

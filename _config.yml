@@ -6,8 +6,8 @@ tagline: ""
 
 # Build settings
 markdown: kramdown
--plugins: 
--- jekyll-paginate-v2
--paginate: 5
--paginate_path: '/blog/page:num/'
+plugins: 
+- jekyll-paginate-v2
+paginate: 5
+paginate_path: '/blog/page:num/'
 

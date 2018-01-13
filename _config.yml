@@ -5,6 +5,7 @@ baseurl: "/Mobile-Reading-Data-Exchange"
 tagline: ""
 
 # Build settings
+<<<<<<< HEAD
 plugins: [jekyll-paginate-v2]
 # Pagination Settings
 pagination:
@@ -15,4 +16,10 @@ pagination:
   limit: 0
   sort_field: 'date'
   sort_reverse: true
+=======
+markdown: kramdown
+plugins: [jekyll-paginate]
+paginate: 5
+paginate_path: '/page:num/'
+>>>>>>> origin/master
 

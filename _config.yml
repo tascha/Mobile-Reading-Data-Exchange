@@ -5,8 +5,14 @@ baseurl: "/Mobile-Reading-Data-Exchange"
 tagline: ""
 
 # Build settings
-markdown: kramdown
 plugins: [jekyll-paginate-v2]
-paginate: 5
-paginate_path: '/page:num/'
+# Pagination Settings
+pagination:
+  enabled: true
+  per_page: 3
+  permalink: '/page/:num/'
+  title_suffix: ' - page :num'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
 

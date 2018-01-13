@@ -22,6 +22,7 @@ The Open Data movement is an attempt to expand OA to include access to the under
 - Availability and Access – people must be able to get the data
 - Re-use and Redistribution – people must be able to share the data
 - Universal Participation – the data should be available to anyone (see the <a href="https://blog.okfn.org/2013/10/03/defining-open-data/">Open Knowledge Information blog</a> and the <a href="http://opendefinition.org/od/2.0/en/">Open Definition site</a> for more information)
+
 The definition also stresses that the data must be open from both a legal and a technical standpoint. In other words, there should be neither laws nor technical barriers that make it unreasonably difficult to access and use the data.
 
 Since 2005 many other organizations have drafted their own definitions and statements on Open Data. In the United States, for instance, many sources identify 2007 as a landmark year for Open Data. In December 2007 thirty thinkers and data activists came together in Sebastopol, California to draft open data principles. Their <a href="https://opengovdata.org/">8 principles</a> remain widely cited today, and include the following:
@@ -33,6 +34,7 @@ Since 2005 many other organizations have drafted their own definitions and state
 6. Non-discriminatory – Data is available to anyone, with no requirement of registration.
 7. Non-proprietary – Data is available in a format over which no entity has exclusive control.
 8. License-free – Data is not subject to any copyright, patent, trademark or trade secret regulation. Reasonable privacy, security and privilege restrictions may be allowed.
+
 Many of the participants at this meeting were also inspired by the open source software movement, which stressed the concepts of openness, participation, and collaboration. They sought to <a href="http://parisinnovationreview.com/articles-en/a-brief-history-of-open-data">provide a framework for sharing and using data that would preserve those data as a common good for all</a>. Since this meeting the open data movement has gained a lot of popularity, but many debates still remain. We explore some of these in the next section.
 
 ### Benefits and Challenges

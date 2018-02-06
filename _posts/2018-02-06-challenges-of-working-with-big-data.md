@@ -6,9 +6,9 @@ layout: post
 author: "Jason Young"
 ---
 This research is the closest that TASCHA has come to a big data project – prior to now, we’ve mostly been able to share data via email or Google Drive. That is much more challenging with a dataset that contains over 500 million rows, and is 300 GB when uncompressed. And, this is only the static dataset upon which we are focusing our efforts – Worldreader’s live datasets accumulate another million rows of data every day! This might not be the same magnitude of data that employees at Google or Amazon work with every day, but it is certainly large for us!
- 
+
 The size of the dataset has us quite excited, because it helps us expand our skills so that we can better take advantage of the new research opportunities afforded by big data. The excitement around big data can, in fact, be a bit infectious – it feels as though everyone is doing big data research now, and that it opens up limitless possibilities. In the business world, some have gone so far as to compare big data to gold (Alharthi et al. 2017). Beyond these business applications, big data also seem to offer potential benefits for the provision of government services, the operation of NGOs, and the pursuit of academic research and teaching (West and Portenoy 2016).
- 
+
 At the same time, moving into the big data research domain also requires us to overcome a lot of challenges. Not only have we had to change a lot of our research practices and infrastructure, but we’ve also come to recognize that big data sets offer a lot of constraints in terms of the types of research we can do with them. In the future, we’ll write a lot of different blog posts detailing both the challenges and the constraints of big data research. In the meantime, this post offers an initial overview of the challenges of big data.
 
 ### What are big data?

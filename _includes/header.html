@@ -24,6 +24,13 @@
 		<!--[if lte IE 8]><link rel="stylesheet" href="{{ site.baseurl }}/assets/css/ie/v8.css" /><![endif]-->
 		<link type="text/css" rel="stylesheet" href="http://tascha.uw.edu/wp-content/themes/tascha/css/tascha-wrapper.css" />
 			<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+		
+		
+		{% if site.google_analytics and jekyll.environment == 'production' %}
+		{% include analytics.html %}
+		{% endif %}
+
+
 			
 	</head>
 	<body>

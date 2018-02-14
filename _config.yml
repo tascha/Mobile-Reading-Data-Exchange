@@ -12,10 +12,10 @@ plugins:
 paginate: 3
 paginate_path: '/page:num/'
 
-jekyll_analytics:
-  GoogleAnalytics:
-    id: UA-114044158-1 
-    anonymizeIp: false
+#jekyll_analytics:
+#  GoogleAnalytics:
+#    id: UA-114044158-1 
+#    anonymizeIp: false
     
 # Google Analytics
 google_analytics: UA-114044158-1

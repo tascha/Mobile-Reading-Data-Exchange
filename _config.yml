@@ -16,3 +16,7 @@ jekyll_analytics:
   GoogleAnalytics:
     id: UA-114044158-1 
     anonymizeIp: false
+    
+# Google Analytics
+google_analytics: UA-114044158-1
+

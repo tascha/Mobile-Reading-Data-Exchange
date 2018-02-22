@@ -17,12 +17,10 @@ As Lucas mentioned in the <a href="{{ site.baseurl }}/2018/01/02/data-variables.
 
 With those caveats in mind, our dataset contains 62,463,086 unique client_ids. Of those, 871,020 have unique user_ids. User_ids indicate that a user has registered either by logging in with Facebook, Google, or by creating a username and password. Registration is not required but allows users to save information about the books they are reading and create a library of titles. As researchers, we value registered users because they are easier to track in the data. Unlike client_ids, user_ids should be consistent over time (assuming a registered user always logs in to use Worldreader and does not share their registration account with other users). Registered users often provide some demographic data in the form of gender and/or age which helps us more readily understand the Worldreader user base and may allow us to pursue social science questions related to age and gender and the use of mobile reading technologies. However, and this is a big caveat, no matter how many users register, we are still drawing from a convenience sample of users who choose to interact with Worldreader. Convenience samples make it difficult, if not impossible, to generalize to the greater population. See more regarding sampling in Jason’s earlier <a href="{{ site.baseurl }}/2018/02/06/challenges-of-working-with-big-data.html">post on big data</a>.
 
-<figure>
-  <p align="center">
+ <p align="center">
   <img src="{{ site.baseurl }}/assets/images/WR_SignIn.jpg" alt="Worldreader Sign In Screen" style="max-width:300px;vertical-align:middle;margin:0px 0px 0px 0px;" /><br>
   <em p style="font-size:11px">A screenshot of the Worldreader Mobile Website's Sign In Screen. December 2017.
-</em>
-</figure>
+</em></p>
 
 ### Registered Users
 

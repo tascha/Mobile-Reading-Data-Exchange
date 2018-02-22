@@ -110,7 +110,7 @@ One of the important aspects of analyzing large datasets is to understand the co
     <td class="tg-lqy6">9,858</td>
   </tr>
 </table>
-
+<br>
 
   <p align="center">
   <img src="{{ site.baseurl }}/assets/images/Top10Countries_Map_CNT_Readers.png" alt="Map Visual of the Top 10 Countries by Count of Unique Readers" style="max-width:800px;vertical-align:middle;margin:0px 0px 0px 0px;" /><br>
@@ -210,7 +210,7 @@ It might also make sense to normalize the number of readers by population, to re
     <td class="tg-lqy6">45.521</td>
   </tr>
 </table>
-
+<br>
 
 Within the top ten countries, here are the statistics:
 

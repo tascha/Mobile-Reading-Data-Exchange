@@ -23,7 +23,6 @@ With those caveats in mind, our dataset contains 62,463,086 unique client_ids. O
   <em p style="font-size:11px">A screenshot of the Worldreader Mobile Website's Sign In Screen. December 2017.
 </em>
 </figure>
-  </p>
 
 ### Registered Users
 

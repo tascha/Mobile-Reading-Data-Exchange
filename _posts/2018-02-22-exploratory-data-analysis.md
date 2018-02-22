@@ -1,7 +1,7 @@
 ---
 title: "Exploratory Data Analysis"
 date: 2018-02-22 
-featured: /assets/images/State_Sponsored_Homophobia_Map.jpg
+featured: /assets/images/Top10Countries_Map_CNT_Readers.png
 layout: post
 author: "Bree Norlander"
 ---

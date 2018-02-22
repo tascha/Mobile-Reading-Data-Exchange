@@ -119,18 +119,96 @@ One of the important aspects of analyzing large datasets is to understand the co
 
 It might also make sense to normalize the number of readers by population, to recognize that countries with larger overall populations are also likely to have relatively more Worldreader users. In the table below we calculated the top 10 countries based on readers per capita (see the variables readers_per_pop and readers_per_100,000), using <a href="http://data.un.org/Data.aspx?q=population&d=PopDiv&f=variableID%3a12%3btimeID%3a77&c=2,4,6,7&s=_crEngNameOrderBy:asc,_timeEngNameOrderBy:desc,_varEngNameOrderBy:asc&v=1">UN data from 2013</a>. It does affect which countries make the top ten. However, our team wanted to focus on larger populations of Worldreader users, so that we can base our in-country analysis on a decent number of individuals. Swaziland, at only 1,425 readers, does not meet this requirement. It’s also a priority for Worldreader to focus on larger populations of their users. We’ve therefore decided to target the raw count data rather than per capita data.
 
-| Country   | Count of Unique Readers | 2013 Population | Readers Per Population | Readers per 100,000 |
-|-----------|------------------------:|----------------:|-----------------------:|--------------------:|
-| Swaziland |                   1,426 |       1,271,456 |               0.001122 |             112.155 |
-| Kenya     |                  41,507 |      44,826,849 |               0.000926 |              92.594 |
-| Ghana     |                  23,694 |      26,346,251 |               0.000899 |              89.933 |
-| Namibia   |                   1,868 |       2,316,520 |               0.000806 |              80.638 |
-| Zambia    |                  12,005 |      15,153,210 |               0.000792 |              79.224 |
-| Benin     |                   6,464 |      10,004,451 |               0.000646 |              64.611 |
-| Zimbabwe  |                   9,200 |      15,054,506 |               0.000611 |              61.111 |
-| Uganda    |                  18,983 |      37,553,726 |               0.000505 |              50.549 |
-| Botswana  |                     990 |       2,128,507 |               0.000465 |              46.511 |
-| Cameroon  |                   9,858 |      21,655,715 |               0.000455 |              45.521 |
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;border-color:#aabcfe;margin:0px auto;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-color:#aabcfe;color:#669;background-color:#e8edff;border-top-width:1px;border-bottom-width:1px;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-color:#aabcfe;color:#039;background-color:#b9c9fe;border-top-width:1px;border-bottom-width:1px;}
+.tg .tg-mb3i{background-color:#D2E4FC;text-align:right;vertical-align:top}
+.tg .tg-lqy6{text-align:right;vertical-align:top}
+.tg .tg-9hbo{font-weight:bold;vertical-align:top}
+.tg .tg-l2oz{font-weight:bold;text-align:right;vertical-align:top}
+.tg .tg-6k2t{background-color:#D2E4FC;vertical-align:top}
+.tg .tg-yw4l{vertical-align:top}
+</style>
+<table class="tg">
+  <tr>
+    <th class="tg-9hbo">Country</th>
+    <th class="tg-l2oz">Count of Unique Readers</th>
+    <th class="tg-l2oz">2013 Population</th>
+    <th class="tg-l2oz">Readers Per Population</th>
+    <th class="tg-l2oz">Readers per 100,000</th>
+  </tr>
+  <tr>
+    <td class="tg-6k2t">Swaziland</td>
+    <td class="tg-mb3i">1,426</td>
+    <td class="tg-mb3i">1,271,456</td>
+    <td class="tg-mb3i">0.001122</td>
+    <td class="tg-mb3i">112.155</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Kenya</td>
+    <td class="tg-lqy6">41,507</td>
+    <td class="tg-lqy6">44,826,849</td>
+    <td class="tg-lqy6">0.000926</td>
+    <td class="tg-lqy6">92.594</td>
+  </tr>
+  <tr>
+    <td class="tg-6k2t">Ghana</td>
+    <td class="tg-mb3i">23,694</td>
+    <td class="tg-mb3i">26,346,251</td>
+    <td class="tg-mb3i">0.000899</td>
+    <td class="tg-mb3i">89.933</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Namibia</td>
+    <td class="tg-lqy6">1,868</td>
+    <td class="tg-lqy6">2,316,520</td>
+    <td class="tg-lqy6">0.000806</td>
+    <td class="tg-lqy6">80.638</td>
+  </tr>
+  <tr>
+    <td class="tg-6k2t">Zambia</td>
+    <td class="tg-mb3i">12,005</td>
+    <td class="tg-mb3i">15,153,210</td>
+    <td class="tg-mb3i">0.000792</td>
+    <td class="tg-mb3i">79.224</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Benin</td>
+    <td class="tg-lqy6">6,464</td>
+    <td class="tg-lqy6">10,004,451</td>
+    <td class="tg-lqy6">0.000646</td>
+    <td class="tg-lqy6">64.611</td>
+  </tr>
+  <tr>
+    <td class="tg-6k2t">Zimbabwe</td>
+    <td class="tg-mb3i">9,200</td>
+    <td class="tg-mb3i">15,054,506</td>
+    <td class="tg-mb3i">0.000611</td>
+    <td class="tg-mb3i">61.111</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Uganda</td>
+    <td class="tg-lqy6">18,983</td>
+    <td class="tg-lqy6">37,553,726</td>
+    <td class="tg-lqy6">0.000505</td>
+    <td class="tg-lqy6">50.549</td>
+  </tr>
+  <tr>
+    <td class="tg-6k2t">Botswana</td>
+    <td class="tg-mb3i">990</td>
+    <td class="tg-mb3i">2,128,507</td>
+    <td class="tg-mb3i">0.000465</td>
+    <td class="tg-mb3i">46.511</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Cameroon</td>
+    <td class="tg-lqy6">9,858</td>
+    <td class="tg-lqy6">21,655,715</td>
+    <td class="tg-lqy6">0.000455</td>
+    <td class="tg-lqy6">45.521</td>
+  </tr>
+</table>
 
 Within the top ten countries, here are the statistics:
 

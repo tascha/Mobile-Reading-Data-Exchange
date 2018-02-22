@@ -45,10 +45,12 @@ In a *Forbes* article, <a href="https://www.forbes.com/sites/metabrown/2015/07/3
 [^1]:One “registered user” may equal one individual or several individuals sharing an account.
 
 <figure>
+  <p align="center">
   <img src="{{ site.baseurl }}/assets/images/AllRegUsers_Age_Gender_BoxPlot.jpg" alt="Self-Identified Gender for Registered Worldreader Users" style="max-width:800px;vertical-align:middle;margin:0px 0px 0px 0px;" /><br>
   <em p style="font-size:11px">Plot created with matplotlib 2.0.2 and seaborn 0.7.1 in Python 3.5.3.
 </em>
 </figure> 
+  </p>
 
 Yes, you read the age range correctly. While it might be that there are many more 160-year-olds living on the planet than we previously knew, it’s probably more likely that many of the input ages are not accurate. A quick search for data regarding the accuracy of demographics in online registration reveals that this information can be highly unreliable (see for example: <a href="https://thenextweb.com/facebook/2017/03/22/facebook-demographics-analysis-startling-truths/">Kemp 2017</a>; <a href="https://varn.co.uk/11/30/can-trust-social-media-profiles-get-facebook-targeting/">Aimee 2017</a>; <a href="https://www.theregister.co.uk/2017/09/06/facebook_claims_more_users_than_exist/">McCarthy 2017</a>; <a href="http://www1.janrain.com/rs/janrain/images/Industry-Research-Value-of-Social-Login-2013.pdf">Goings and Abel n.d.</a>; <a href="https://conversionxl.com/blog/social-login/">Soni 2017</a>). Ages were gathered from users who created an account with Worldreader and chose to provide their age. The Worldreader registration input box errors with any age over 160. Ages are recorded in whole numbers rather than calculated from a birthdate. This field is static and does not change over time unless a user updates their profile information. For all of the above reasons, we will need to be cautious about any observations we make from the age variable and the gender variable.
 
@@ -70,10 +72,12 @@ One of the important aspects of analyzing large datasets is to understand the co
 | Cameroon     |                   9,858 |
 
 <figure>
+  <p align="center">
   <img src="{{ site.baseurl }}/assets/images/Top10Countries_Map_CNT_Readers.png" alt="Map Visual of the Top 10 Countries by Count of Unique Readers" style="max-width:800px;vertical-align:middle;margin:0px 0px 0px 0px;" /><br>
   <em p style="font-size:11px">Map created with Tableau Desktop 10.4.
 </em>
 </figure> 
+</p>
 
 It might also make sense to normalize the number of readers by population, to recognize that countries with larger overall populations are also likely to have relatively more Worldreader users. In the table below we calculated the top 10 countries based on readers per capita (see the variables readers_per_pop and readers_per_100,000), using <a href="http://data.un.org/Data.aspx?q=population&d=PopDiv&f=variableID%3a12%3btimeID%3a77&c=2,4,6,7&s=_crEngNameOrderBy:asc,_timeEngNameOrderBy:desc,_varEngNameOrderBy:asc&v=1">UN data from 2013</a>. It does affect which countries make the top ten. However, our team wanted to focus on larger populations of Worldreader users, so that we can base our in-country analysis on a decent number of individuals. Swaziland, at only 1,425 readers, does not meet this requirement. It’s also a priority for Worldreader to focus on larger populations of their users. We’ve therefore decided to target the raw count data rather than per capita data.
 
@@ -109,16 +113,20 @@ Within the top ten countries, here are the statistics:
 [^2]:One “registered user” may equal one individual or several individuals sharing an account.
 
 <figure>
+  <p align="center">
   <img src="{{ site.baseurl }}/assets/images/Top10Countries_Age_Gender_BoxPlot.jpg" alt="Self-Identified Gender for Registered Worldreader Users in Top 10 Countries" style="max-width:800px;vertical-align:middle;margin:0px 0px 0px 0px;" /><br>
   <em p style="font-size:11px">Plot created with matplotlib 2.0.2 and seaborn 0.7.1 in Python 3.5.3.
 </em>
-</figure> 
+</figure>
+</p>
 
 <figure>
+  <p align="center">
   <img src="{{ site.baseurl }}/assets/images/Top10Countries_Gender_Percentage_Plot.jpg" alt="Self-Identified Gender Percentage Breakdown for Registered Worldreader Users in Top 10 Countries  by Country" style="max-width:800px;vertical-align:middle;margin:0px 0px 0px 0px;" /><br>
   <em p style="font-size:11px">Plot created with matplotlib 2.0.2 in Python 3.5.3.
 </em>
 </figure> 
+</p>
 
 ### Conclusion
 

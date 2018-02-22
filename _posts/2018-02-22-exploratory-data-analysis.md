@@ -53,18 +53,63 @@ Yes, you read the age range correctly. While it might be that there are many mor
 
 One of the important aspects of analyzing large datasets is to understand the context or information landscape from which the data is being gathered. Researching the literacy landscape of 197 countries is unmanageable within the short timeframe of this study. We decided to focus on the top 10 countries. To determine the top ten countries, we used the registered users data to pull out the count of unique user_ids where a user_id was classified as a “Reader.” This is the method Worldreader uses to count users in a given country. (Classification as reader varies slightly by country but in general a user_id account holder must have viewed at least two pages of a book on a single day.) Below are the top 10 countries and the counts of registered user_ids:
 
-| Country      | Count of Unique Readers |
-|--------------|------------------------:|
-| Nigeria      |                  61,616 |
-| Kenya        |                  41,507 |
-| Ghana        |                  23,694 |
-| Uganda       |                  18,983 |
-| Ivory Coast  |                  15,627 |
-| India        |                  14,906 |
-| South Africa |                  14,717 |
-| Ethiopia     |                  13,684 |
-| Zambia       |                  12,005 |
-| Cameroon     |                   9,858 |
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;border-color:#aabcfe;margin:0px auto;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-color:#aabcfe;color:#669;background-color:#e8edff;border-top-width:1px;border-bottom-width:1px;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-color:#aabcfe;color:#039;background-color:#b9c9fe;border-top-width:1px;border-bottom-width:1px;}
+.tg .tg-mb3i{background-color:#D2E4FC;text-align:right;vertical-align:top}
+.tg .tg-lqy6{text-align:right;vertical-align:top}
+.tg .tg-9hbo{font-weight:bold;vertical-align:top}
+.tg .tg-l2oz{font-weight:bold;text-align:right;vertical-align:top}
+.tg .tg-6k2t{background-color:#D2E4FC;vertical-align:top}
+.tg .tg-yw4l{vertical-align:top}
+</style>
+<table class="tg">
+  <tr>
+    <th class="tg-9hbo">Country</th>
+    <th class="tg-l2oz">Count of Unique Readers</th>
+  </tr>
+  <tr>
+    <td class="tg-6k2t">Nigeria</td>
+    <td class="tg-mb3i">61,616</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Kenya</td>
+    <td class="tg-lqy6">41,507</td>
+  </tr>
+  <tr>
+    <td class="tg-6k2t">Ghana</td>
+    <td class="tg-mb3i">23,694</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Uganda</td>
+    <td class="tg-lqy6">18,983</td>
+  </tr>
+  <tr>
+    <td class="tg-6k2t">Ivory Coast</td>
+    <td class="tg-mb3i">15,627</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">India</td>
+    <td class="tg-lqy6">14,906</td>
+  </tr>
+  <tr>
+    <td class="tg-6k2t">South Africa</td>
+    <td class="tg-mb3i">14,717</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Ethiopia</td>
+    <td class="tg-lqy6">13,684</td>
+  </tr>
+  <tr>
+    <td class="tg-6k2t">Zambia</td>
+    <td class="tg-mb3i">12,005</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Cameroon</td>
+    <td class="tg-lqy6">9,858</td>
+  </tr>
+</table>
 
   <p align="center">
   <img src="{{ site.baseurl }}/assets/images/Top10Countries_Map_CNT_Readers.png" alt="Map Visual of the Top 10 Countries by Count of Unique Readers" style="max-width:800px;vertical-align:middle;margin:0px 0px 0px 0px;" /><br>

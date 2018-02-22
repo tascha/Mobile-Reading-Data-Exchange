@@ -43,7 +43,7 @@ In a *Forbes* article, <a href="https://www.forbes.com/sites/metabrown/2015/07/3
 [^1]:One “registered user” may equal one individual or several individuals sharing an account.
 
 <figure>
-  <img src="{{ site.baseurl }}/assets/images/AllRegUsers_Age_Gender_Boxplot.jpg" alt="Self-Identified Gender for Registered Worldreader Users" style="max-width:800px;vertical-align:middle;margin:0px 0px 0px 0px;" />
+  <img src="{{ site.baseurl }}/assets/images/AllRegUsers_Age_Gender_BoxPlot.jpg" alt="Self-Identified Gender for Registered Worldreader Users" style="max-width:800px;vertical-align:middle;margin:0px 0px 0px 0px;" />
   <em p style="font-size:11px">Plot created with matplotlib 2.0.2 and seaborn 0.7.1 in Python 3.5.3.
 </em>
 </figure> 
@@ -107,7 +107,7 @@ Within the top ten countries, here are the statistics:
 [^2]:One “registered user” may equal one individual or several individuals sharing an account.
 
 <figure>
-  <img src="{{ site.baseurl }}/assets/images/Top10Countries_Age_Gender_Boxplot.jpg" alt="Self-Identified Gender for Registered Worldreader Users in Top 10 Countries" style="max-width:800px;vertical-align:middle;margin:0px 0px 0px 0px;" />
+  <img src="{{ site.baseurl }}/assets/images/Top10Countries_Age_Gender_BoxPlot.jpg" alt="Self-Identified Gender for Registered Worldreader Users in Top 10 Countries" style="max-width:800px;vertical-align:middle;margin:0px 0px 0px 0px;" />
   <em p style="font-size:11px">Plot created with matplotlib 2.0.2 and seaborn 0.7.1 in Python 3.5.3.
 </em>
 </figure> 

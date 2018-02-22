@@ -18,7 +18,7 @@ As Lucas mentioned in the <a href="{{ site.baseurl }}/2018/01/02/data-variables.
 With those caveats in mind, our dataset contains 62,463,086 unique client_ids. Of those, 871,020 have unique user_ids. User_ids indicate that a user has registered either by logging in with Facebook, Google, or by creating a username and password. Registration is not required but allows users to save information about the books they are reading and create a library of titles. As researchers, we value registered users because they are easier to track in the data. Unlike client_ids, user_ids should be consistent over time (assuming a registered user always logs in to use Worldreader and does not share their registration account with other users). Registered users often provide some demographic data in the form of gender and/or age which helps us more readily understand the Worldreader user base and may allow us to pursue social science questions related to age and gender and the use of mobile reading technologies. However, and this is a big caveat, no matter how many users register, we are still drawing from a convenience sample of users who choose to interact with Worldreader. Convenience samples make it difficult, if not impossible, to generalize to the greater population. See more regarding sampling in Jason’s earlier <a href="{{ site.baseurl }}/2018/02/06/challenges-of-working-with-big-data.html">post on big data</a>.
 
 <figure>
-  <img src="{{ site.baseurl }}/assets/images/WR_SignIn.jpg" alt="Worldreader Sign In Screen" style="max-width:300px;vertical-align:middle;horizontal-align:middle;margin:0px 0px 0px 0px;" /><br>
+  <img src="{{ site.baseurl }}/assets/images/WR_SignIn.jpg" alt="Worldreader Sign In Screen" style="max-width:300px;vertical-align:middle;margin:0px 0px 0px 0px;" /><br>
   <em p style="font-size:11px">A screenshot of the Worldreader Mobile Website's Sign In Screen. December 2017.
 </em>
 </figure> 
@@ -43,7 +43,7 @@ In a *Forbes* article, <a href="https://www.forbes.com/sites/metabrown/2015/07/3
 [^1]:One “registered user” may equal one individual or several individuals sharing an account.
 
 <figure>
-  <img src="{{ site.baseurl }}/assets/images/AllRegUsers_Age_Gender_BoxPlot.jpg" alt="Self-Identified Gender for Registered Worldreader Users" style="max-width:800px;vertical-align:middle;margin:0px 0px 0px 0px;" />
+  <img src="{{ site.baseurl }}/assets/images/AllRegUsers_Age_Gender_BoxPlot.jpg" alt="Self-Identified Gender for Registered Worldreader Users" style="max-width:800px;vertical-align:middle;margin:0px 0px 0px 0px;" /><br>
   <em p style="font-size:11px">Plot created with matplotlib 2.0.2 and seaborn 0.7.1 in Python 3.5.3.
 </em>
 </figure> 
@@ -68,7 +68,7 @@ One of the important aspects of analyzing large datasets is to understand the co
 | Cameroon     |                   9,858 |
 
 <figure>
-  <img src="{{ site.baseurl }}/assets/images/Top10Countries_Map_CNT_Readers.png" alt="Map Visual of the Top 10 Countries by Count of Unique Readers" style="max-width:800px;vertical-align:middle;margin:0px 0px 0px 0px;" />
+  <img src="{{ site.baseurl }}/assets/images/Top10Countries_Map_CNT_Readers.png" alt="Map Visual of the Top 10 Countries by Count of Unique Readers" style="max-width:800px;vertical-align:middle;margin:0px 0px 0px 0px;" /><br>
   <em p style="font-size:11px">Map created with Tableau Desktop 10.4.
 </em>
 </figure> 
@@ -107,13 +107,13 @@ Within the top ten countries, here are the statistics:
 [^2]:One “registered user” may equal one individual or several individuals sharing an account.
 
 <figure>
-  <img src="{{ site.baseurl }}/assets/images/Top10Countries_Age_Gender_BoxPlot.jpg" alt="Self-Identified Gender for Registered Worldreader Users in Top 10 Countries" style="max-width:800px;vertical-align:middle;margin:0px 0px 0px 0px;" />
+  <img src="{{ site.baseurl }}/assets/images/Top10Countries_Age_Gender_BoxPlot.jpg" alt="Self-Identified Gender for Registered Worldreader Users in Top 10 Countries" style="max-width:800px;vertical-align:middle;margin:0px 0px 0px 0px;" /><br>
   <em p style="font-size:11px">Plot created with matplotlib 2.0.2 and seaborn 0.7.1 in Python 3.5.3.
 </em>
 </figure> 
 
 <figure>
-  <img src="{{ site.baseurl }}/assets/images/Top10Countries_Gender_Percentage_Plot.jpg" alt="Self-Identified Gender Percentage Breakdown for Registered Worldreader Users in Top 10 Countries  by Country" style="max-width:800px;vertical-align:middle;margin:0px 0px 0px 0px;" />
+  <img src="{{ site.baseurl }}/assets/images/Top10Countries_Gender_Percentage_Plot.jpg" alt="Self-Identified Gender Percentage Breakdown for Registered Worldreader Users in Top 10 Countries  by Country" style="max-width:800px;vertical-align:middle;margin:0px 0px 0px 0px;" /><br>
   <em p style="font-size:11px">Plot created with matplotlib 2.0.2 in Python 3.5.3.
 </em>
 </figure> 

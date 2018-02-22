@@ -22,6 +22,7 @@ With those caveats in mind, our dataset contains 62,463,086 unique client_ids. O
   <img src="{{ site.baseurl }}/assets/images/WR_SignIn.jpg" alt="Worldreader Sign In Screen" style="max-width:300px;vertical-align:middle;margin:0px 0px 0px 0px;" /><br>
   <em p style="font-size:11px">A screenshot of the Worldreader Mobile Website's Sign In Screen. December 2017.
 </em>
+  </p>
 </figure> 
 
 ### Registered Users

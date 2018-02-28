@@ -212,11 +212,11 @@ It might also make sense to normalize the number of readers by population, to re
 </table>
 <br>
 
-Within the top ten countries, here are the statistics:
+Within the top ten countries by count, here are the statistics:
 
 - 279,205 registered users[^2] have interacted with 17,826 different book titles in 64 languages
     - The most popular book category is “Love”
-        - When broken down by country the top book category is “Love” for Nigeria, Kenya, Ghana, Uganda, South Africa, Ethiopia, Zambia, and Cameroon; “Story Books” for India; and “Classics” for Ivory Coast.
+        - When broken down by country the top book category is “Love” for Nigeria, Kenya, Ghana, Uganda, South Africa, Ethiopia, Zambia, and Zimbabwe; “Story Books” for India; and “Classics” for Ivory Coast.
 - 58.8% (n = 164,109) of registered users in the top ten countries have provided some demographic data via the registration portal
     - Of those:
         - Count Female: 54,387 (33.1%) 

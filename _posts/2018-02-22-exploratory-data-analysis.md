@@ -28,7 +28,7 @@ In a *Forbes* article, <a href="https://www.forbes.com/sites/metabrown/2015/07/3
 
 - Registered users[^1] have interacted with 25,633 unique book titles in 87 unique languages
 - Registered users access Worldreader from 197 different countries
-- 54.3% (n = 472,799) of registered users have either provided some demographic data via the registration portal
+- 54.3% (n = 472,799) of registered users provided some demographic data via the registration portal
     - Of those:
         - Count Female: 146,961 (31.1%)
         - Count Male: 310,294 (65.6%)
@@ -71,23 +71,23 @@ One of the important aspects of analyzing large datasets is to understand the co
   </tr>
   <tr>
     <td class="tg-6k2t">Nigeria</td>
-    <td class="tg-mb3i">61,616</td>
+    <td class="tg-mb3i">55,963</td>
   </tr>
   <tr>
     <td class="tg-yw4l">Kenya</td>
-    <td class="tg-lqy6">41,507</td>
+    <td class="tg-lqy6">36,940</td>
   </tr>
   <tr>
     <td class="tg-6k2t">Ghana</td>
-    <td class="tg-mb3i">23,694</td>
+    <td class="tg-mb3i">20,656</td>
   </tr>
   <tr>
     <td class="tg-yw4l">Uganda</td>
-    <td class="tg-lqy6">18,983</td>
+    <td class="tg-lqy6">16,819</td>
   </tr>
   <tr>
     <td class="tg-6k2t">Ivory Coast</td>
-    <td class="tg-mb3i">15,627</td>
+    <td class="tg-mb3i">12,830</td>
   </tr>
   <tr>
     <td class="tg-yw4l">India</td>
@@ -95,19 +95,19 @@ One of the important aspects of analyzing large datasets is to understand the co
   </tr>
   <tr>
     <td class="tg-6k2t">South Africa</td>
-    <td class="tg-mb3i">14,717</td>
+    <td class="tg-mb3i">12,601</td>
   </tr>
   <tr>
     <td class="tg-yw4l">Ethiopia</td>
-    <td class="tg-lqy6">13,684</td>
+    <td class="tg-lqy6">10,911</td>
   </tr>
   <tr>
     <td class="tg-6k2t">Zambia</td>
-    <td class="tg-mb3i">12,005</td>
+    <td class="tg-mb3i">10,653</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">Cameroon</td>
-    <td class="tg-lqy6">9,858</td>
+    <td class="tg-yw4l">Zimbabwe</td>
+    <td class="tg-lqy6">8,149</td>
   </tr>
 </table>
 <br>

@@ -141,73 +141,73 @@ It might also make sense to normalize the number of readers by population, to re
   </tr>
   <tr>
     <td class="tg-6k2t">Swaziland</td>
-    <td class="tg-mb3i">1,426</td>
+    <td class="tg-mb3i">1,294</td>
     <td class="tg-mb3i">1,271,456</td>
-    <td class="tg-mb3i">0.001122</td>
-    <td class="tg-mb3i">112.155</td>
+    <td class="tg-mb3i">0.001018</td>
+    <td class="tg-mb3i">101.773</td>
   </tr>
   <tr>
     <td class="tg-yw4l">Kenya</td>
-    <td class="tg-lqy6">41,507</td>
+    <td class="tg-lqy6">36,940</td>
     <td class="tg-lqy6">44,826,849</td>
-    <td class="tg-lqy6">0.000926</td>
-    <td class="tg-lqy6">92.594</td>
+    <td class="tg-lqy6">0.000824</td>
+    <td class="tg-lqy6">82.406</td>
   </tr>
   <tr>
     <td class="tg-6k2t">Ghana</td>
-    <td class="tg-mb3i">23,694</td>
+    <td class="tg-mb3i">20,656</td>
     <td class="tg-mb3i">26,346,251</td>
-    <td class="tg-mb3i">0.000899</td>
-    <td class="tg-mb3i">89.933</td>
+    <td class="tg-mb3i">0.000784</td>
+    <td class="tg-mb3i">78.402</td>
   </tr>
   <tr>
     <td class="tg-yw4l">Namibia</td>
-    <td class="tg-lqy6">1,868</td>
+    <td class="tg-lqy6">1,684</td>
     <td class="tg-lqy6">2,316,520</td>
-    <td class="tg-lqy6">0.000806</td>
-    <td class="tg-lqy6">80.638</td>
+    <td class="tg-lqy6">0.000727</td>
+    <td class="tg-lqy6">72.695</td>
   </tr>
   <tr>
     <td class="tg-6k2t">Zambia</td>
-    <td class="tg-mb3i">12,005</td>
+    <td class="tg-mb3i">10,653</td>
     <td class="tg-mb3i">15,153,210</td>
-    <td class="tg-mb3i">0.000792</td>
-    <td class="tg-mb3i">79.224</td>
-  </tr>
-  <tr>
-    <td class="tg-yw4l">Benin</td>
-    <td class="tg-lqy6">6,464</td>
-    <td class="tg-lqy6">10,004,451</td>
-    <td class="tg-lqy6">0.000646</td>
-    <td class="tg-lqy6">64.611</td>
+    <td class="tg-mb3i">0.000703</td>
+    <td class="tg-mb3i">70.302</td>
   </tr>
   <tr>
     <td class="tg-6k2t">Zimbabwe</td>
-    <td class="tg-mb3i">9,200</td>
+    <td class="tg-mb3i">8,149</td>
     <td class="tg-mb3i">15,054,506</td>
-    <td class="tg-mb3i">0.000611</td>
-    <td class="tg-mb3i">61.111</td>
+    <td class="tg-mb3i">0.000541</td>
+    <td class="tg-mb3i">54.13</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Benin</td>
+    <td class="tg-lqy6">5,252</td>
+    <td class="tg-lqy6">10,004,451</td>
+    <td class="tg-lqy6">0.000525</td>
+    <td class="tg-lqy6">52.497</td>
   </tr>
   <tr>
     <td class="tg-yw4l">Uganda</td>
-    <td class="tg-lqy6">18,983</td>
+    <td class="tg-lqy6">16,819</td>
     <td class="tg-lqy6">37,553,726</td>
-    <td class="tg-lqy6">0.000505</td>
-    <td class="tg-lqy6">50.549</td>
+    <td class="tg-lqy6">0.000448</td>
+    <td class="tg-lqy6">44.787</td>
   </tr>
   <tr>
     <td class="tg-6k2t">Botswana</td>
-    <td class="tg-mb3i">990</td>
+    <td class="tg-mb3i">851</td>
     <td class="tg-mb3i">2,128,507</td>
-    <td class="tg-mb3i">0.000465</td>
-    <td class="tg-mb3i">46.511</td>
+    <td class="tg-mb3i">0.000400</td>
+    <td class="tg-mb3i">39.981</td>
   </tr>
   <tr>
     <td class="tg-yw4l">Cameroon</td>
-    <td class="tg-lqy6">9,858</td>
+    <td class="tg-lqy6">8,136</td>
     <td class="tg-lqy6">21,655,715</td>
-    <td class="tg-lqy6">0.000455</td>
-    <td class="tg-lqy6">45.521</td>
+    <td class="tg-lqy6">0.000376</td>
+    <td class="tg-lqy6">37.57</td>
   </tr>
 </table>
 <br>

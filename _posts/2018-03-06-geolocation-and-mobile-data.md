@@ -49,18 +49,33 @@ These dynamics have considerable implications for any research that relies on IP
 
 Future developments may also provide new opportunities to perform geographic analysis with Worldreader behavior. Given the popularity of location-based services, companies and researchers are constantly exploring new methods for performing geolocation. However, even the newest methods still have difficulty identifying the location of mobile phones (e.g. Chandrasekaran et al. 2015). The greatest enhancement on this front would be the development of a dedicated Worldreader application capable of interacting with the GPS receiver on users’ phones. This is not a panacea, since it relies on users owning smartphones with GPS capabilities and on users granting Worldreader permission to access this location data. It also opens up new questions of research ethics, given that detailed geographic data makes it much easier to <a href="{{ site.baseurl }}2018/01/12/open-data-and-research-ethics.html">identify</a> specific users. Nevertheless, it would open the door to performing many new forms of analysis with this big data set.
 
+### Bibliography
+
 Balakrishnan M, I Mohomed, and V Ramasubramanian. 2009. Where’s that Phone: Geolocating IP Addresses on 3G Networks. *IMC ’09*. Chicago, Illinois, USA.
+
 Chandrasekaran B et al. 2015. Alidade: IP Geolocation without Active Probing. *Technical Report CS-TR-2015.01*.
+
 Ciavarrini G, V Luconi, and A Vecchio. 2017. Smartphone-based geolocation of Internet hosts. *Computer Networks*. 116: 22-32.
-Google. 2017. Statistics: Per-Country IPv6 Adoption. Google IPv6. https://www.google.com/intl/en/ipv6/statistics.html#tab=per-country-ipv6-adoption&tab=per-country-ipv6-adoption
+Google. 2017. Statistics: Per-Country IPv6 Adoption. Google IPv6. <a href="https://www.google.com/intl/en/ipv6/statistics.html#tab=per-country-ipv6-adoption&tab=per-country-ipv6-adoption">https://www.google.com/intl/en/ipv6/statistics.html#tab=per-country-ipv6-adoption&tab=per-country-ipv6-adoption</a>
+
 Kester, J-J. 2016. Comparing the Accuracy of IPv4 and IPv6 Geolocation Databases. *24th Twente Student COnference on IT*. January 22, 2016. Enschede, The Netherlands.
+
 Kitchin R, T Lauriault, and M Wilson. 2017. *Understanding Spatial Media*. London: Sage.
-Maigron P. 2017. Regional Internet Registries Statistics. http://www-public.tem-tsp.eu/~maigron/RIR_Stats/
+
+Maigron P. 2017. Regional Internet Registries Statistics. <a href="http://www-public.tem-tsp.eu/~maigron/RIR_Stats/">http://www-public.tem-tsp.eu/~maigron/RIR_Stats/</a>
+
 Mattern S. 2017. Urban Dashboards. In: R Kitchin, T Lauriault, and M Wilson’s (eds) *Understanding Spatial Media*. London: Sage. Pp. 74-83.
+
 Poese I, S Uhlig, MA Kaafar, B Donnet, and B Gueye. 2011. Editorial: IP Geolocation Databases: Unreliable? *Computer Communication Review*. 41(2): 53-56.
+
 Seely-Gant, K and LM Frehill. 2015. Exploring Bias and Error in Big Data Research. *Journal of the Washington Academy of Science*. 101(3): 29-37.
+
 Sparke M. 2011. The Look of Surveillance Returns. In: M Dodge’s (ed) *Classics in Cartography: Reflections on Influential Articles from Cartographic*. New York: Wiley. Pp. 373-386
-Tamon MA. 2015. Why IPv6 Development is Slow in Africa & What to Do About It. *CircleID*. http://www.circleid.com/posts/20151018_why_ipv6_deployment_is_slow_in_africa_what_to_do_about_it/
+
+Tamon MA. 2015. Why IPv6 Development is Slow in Africa & What to Do About It. *CircleID*. <a href="http://www.circleid.com/posts/20151018_why_ipv6_deployment_is_slow_in_africa_what_to_do_about_it/">http://www.circleid.com/posts/20151018_why_ipv6_deployment_is_slow_in_africa_what_to_do_about_it/</a>
+
 Triukose S, S Ardon, A Mahanti, and A Seth. 2012. Geolocating IP Addresses in Cellular Data Networks. *International Conference on Passive and Active Network Measurement*. PAM 2012. Pp. 158-67.
+
 Weber I and B State. 2017. Digital Demography. *WWW ’17 Companion*. April 3 – 7, 2017, Perth, Australia. Pp. 935 – 939.
+
 Young J, D Wald, P Earle, and L Shanley. 2013. *Transforming Earthquake Detection and Science Through Citizen Seismology*. Washington DC: Woodrow Wilson International Center for Scholars.

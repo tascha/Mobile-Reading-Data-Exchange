@@ -1,7 +1,7 @@
 ---
 title: "Geolocation and Mobile Data"
 date: 2018-03-06 
-featured: https://upload.wikimedia.org/wikipedia/commons/0/09/IP_address_icon.png
+featured: /assets/images/IP_address_icon.png
 layout: post
 author: "Jason Young"
 ---

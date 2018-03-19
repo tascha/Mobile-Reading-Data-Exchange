@@ -29,8 +29,8 @@ As I started digging into the data, I generally followed these steps:
 - Summarize key variables, such as number of unique id’s, dates, countries, books, etc.
 - Start checking consistency: is there data for every date? Are there columns that contain data that should clearly be in a different column?
 - Start digging deeper with tables and graphs:
-    - # of log events by day and by user_id
-    - Events by country
+  - # of log events by day and by user_id
+  - Events by country
 - Use small part of data to build out analysis strategy, such as restricting the time scale or geography, before rolling out to the full data.
 - Use previous big data experience to anticipate problems and improve analysis, for example:
     - Many algorithms can work independently on different subsets of the data, combining results at the end for summarizing and visualization. Examples include working by date, country, or user.

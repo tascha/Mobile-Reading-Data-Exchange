@@ -18,5 +18,5 @@ paginate_path: '/page:num/'
 #    anonymizeIp: false
     
 # Google Analytics
-google_analytics: UA-114044158-1
+#google_analytics: UA-114044158-1
 

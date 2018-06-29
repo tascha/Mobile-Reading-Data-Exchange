@@ -22,8 +22,8 @@ The first step was to generate a list of potential indicators to create from the
 </style>
 <table class="tg">
   <tr>
-    <th class="tg-031e">Time on platform</th>
-    <th class="tg-031e">Total time between first and last event logged</th>
+    <td class="tg-031e">Time on platform</td>
+    <td class="tg-031e">Total time between first and last event logged</td>
   </tr>
   <tr>
     <td class="tg-031e">Events to first page read</td>

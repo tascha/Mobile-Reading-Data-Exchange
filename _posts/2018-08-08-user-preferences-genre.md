@@ -1,7 +1,7 @@
 ---
 title: "User Preferences: Part 1, Genre"
 date: 2018-08-08 
-featured: /assets/images/total-users-by-gender-barchart.png
+featured: /assets/images/genre-network-graph.png
 layout: post
 excerpt_separator: <!--more-->
 author: "Jason Young"

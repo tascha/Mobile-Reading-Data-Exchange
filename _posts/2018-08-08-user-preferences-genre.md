@@ -77,8 +77,9 @@ These analyses provide valuable insights into the current Worldreader material t
 
 References
 
-Charles R. 2017. Books Perspective: Stop dissing romance novels already. The Washington Post. 7 August. https://www.washingtonpost.com/entertainment/books/stop-dissing-romance-novels-already/2017/08/07/960e8bda-7abe-11e7-83c7-5bd5460f0d7e_story.html?utm_term=.c7238947aba3
+Charles R. 2017. Books Perspective: Stop dissing romance novels already. The Washington Post. 7 August. <a href="https://www.washingtonpost.com/entertainment/books/stop-dissing-romance-novels-already/2017/08/07/960e8bda-7abe-11e7-83c7-5bd5460f0d7e_story.html?utm_term=.c7238947aba3">https://www.washingtonpost.com/entertainment/books/stop-dissing-romance-novels-already/2017/08/07/960e8bda-7abe-11e7-83c7-5bd5460f0d7e_story.html?utm_term=.c7238947aba3</a>
 
 Tapper O. 2014. Romance and Innovation in Twenty-First Century Publishing. Publishing Research Quarterly. 30: 249-59
 
-The Economist. 2016. Book-publishing's naughty secret. The Economist. 26 May 2016. Last Acc. 8 Aug 2018. https://www.economist.com/prospero/2016/05/26/book-publishings-naughty-secret
+The Economist. 2016. Book-publishing's naughty secret. The Economist. 26 May 2016. Last Acc. 8 Aug 2018. <a href="https://www.economist.com/prospero/2016/05/26/book-publishings-naughty-secret
+">https://www.economist.com/prospero/2016/05/26/book-publishings-naughty-secret</a>

@@ -74,3 +74,11 @@ Figure 6 goes on to break reading preferences down by both gender and country, t
 <br>
 
 These analyses provide valuable insights into the current Worldreader material that users are accessing. However, this is only half of the story since it does not tell us what type of material users <i>want</i> to access, but that is currently not available within the application. This type of information can be even more valuable for Worldreader as they build their collections. Next week we examine user queries to better understand user demand for new materials.
+
+References
+
+Charles R. 2017. Books Perspective: Stop dissing romance novels already. The Washington Post. 7 August. https://www.washingtonpost.com/entertainment/books/stop-dissing-romance-novels-already/2017/08/07/960e8bda-7abe-11e7-83c7-5bd5460f0d7e_story.html?utm_term=.c7238947aba3
+
+Tapper O. 2014. Romance and Innovation in Twenty-First Century Publishing. Publishing Research Quarterly. 30: 249-59
+
+The Economist. 2016. Book-publishing's naughty secret. The Economist. 26 May 2016. Last Acc. 8 Aug 2018. https://www.economist.com/prospero/2016/05/26/book-publishings-naughty-secret

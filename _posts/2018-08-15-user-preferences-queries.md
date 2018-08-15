@@ -11,13 +11,13 @@ Our <a href="https://tascha.github.io/Mobile-Reading-Data-Exchange/2018/08/08/us
 Before digging into the types of queries being performed, it’s important to understand who is performing these queries. Is the function used often enough to merit consideration? And, if so, does it reveal more information about any particular group of users? Figure 7 shows that the search function is being used across the top 10 countries, with a raw count of searches varying from over 1.8 million in Nigeria down to 88,344 in India. These searches are being made by a fairly large number of users. Figure 8 shows the number of unique IDs (either user ID or client ID) associated with at least one query across the top ten countries. This time the numbers vary from 440,100 unique IDs in South Africa to 30,110 unique IDs in Zimbabwe. These results need to be qualified slightly, since a client ID may not be equivalent to a single user – one unregistered user could potentially be using multiple devices, which would inflate these numbers. Nevertheless, the number of queries, and IDs associated with queries, seems high enough to justify further analysis.
 
 <figure>
-  <img src="{{ site.baseurl }}/assets/images/raw-count-searches-by-country.png" alt="Raw Count of Searches by Country" style="max-width:800px;vertical-align:middle;margin:0px 0px 0px 0px;" />
-  <em p style="font-size:11px">Figure 7.</em>
+  <img src="{{ site.baseurl }}/assets/images/raw-count-searches-by-country.png" alt="Raw Count of Searches by Country" style="max-width:100%;vertical-align:middle;margin:0px 0px 0px 0px;" />
+  <figcaption>Figure 7.</figcaption>
 </figure> 
 <br>
 
 <figure>
-  <img src="{{ site.baseurl }}/assets/images/no-ids-with-one-query-top10.png" alt="IDs with at least one query" style="max-width:800px;vertical-align:middle;margin:0px 0px 0px 0px;" />
+  <img src="{{ site.baseurl }}/assets/images/no-ids-with-one-query-top10.png" alt="IDs with at least one query" style="max-width:100%;vertical-align:middle;margin:0px 0px 0px 0px;" />
   <em p style="font-size:11px">Figure 8.</em>
 </figure> 
 <br>
@@ -48,17 +48,18 @@ So, what is it that users are searching for? Figure 11 is a word cloud of the mo
 <br>
 
 Across these ten countries, the following terms are associated with the most number of unique IDs:
- 
-Sex: 27,843
-Bible: 14,623
-Love: 12,884
-Things Fall Apart: 10,295
-Animal Farm: 9,195
-Romeo and Juliet: 8977
-Nothing but the Truth: 8,186
-Biology: 7,047
-Morgan Rice: 6,876
-Fifty Shades of Grey: 6,006
+  <ul>
+  <li>Sex: 27,843</li>
+  <li>Bible: 14,623</li>
+  <li>Love: 12,884</li>
+  <li><i>Things Fall Apart</i>: 10,295</li>
+  <li><i>Animal Farm</i>: 9,195</li>
+  <li><i>Romeo and Juliet</i>: 8977</li>
+  <li><i>Nothing but the Truth</i>: 8,186</li>
+  <li>Biology: 7,047</li>
+  <li>Morgan Rice: 6,876</li>
+  <li><i>Fifty Shades of Grey</i>: 6,006</ul>
+  </ul>
 
 It is not surprising that four of these queries – sex, love, <i>Romeo and Juliet</i>, and <i>Fifty Shades of Grey</i> – can be directly associated with the love category of books within the Worldreader application. The vast popularity of sex as a search term indicates that the popularity of the love category is directly related to an interest in sexual topics. However, the ranking of the term love at number three certainly indicates that the popularity of love as a category is more multi-faceted than just an interest in sex. The appearance of the Bible as a search term is consistent with the heavily Christian demographics of many of these countries, and Nothing but the Truth may also be religious in nature. <i>Nothing but the Truth: Precious memories</i> is a book authored by Pastor Deborah C. Dallas. However, more research is necessary to determine whether this is actually what these users are searching for – they could just as easily be looking for the 2008 movie <i>Nothing but the Truth</i>. Other search terms make it seem as though some users do search for videos within the Worldreader app, despite it being an e-reading platform. Many of the other top search terms appear to be popular books and authors, including <i>Things Fall Apart</i> (an account of colonial Nigeria by Chinua Achebe), <i>Animal Farm</i>, and Morgan Rice (a self-published young adult/science fiction/fantasy author). Finally, it does appear that a large number of users are accessing the application for educational/reference purposes, given the high number of searches for the term biology.
 

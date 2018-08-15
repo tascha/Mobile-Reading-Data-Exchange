@@ -26,7 +26,7 @@ These raw counts give us some idea of the overall quantity of queries, but do no
 [^1]:Remember that users that have recorded their gender are necessarily registered users.
 
 <figure>
-  <img src="{{ site.baseurl }}/assets/images/no-users-performing-queries.png" alt="Number of users performing queries by gender" style="max-width:800px;vertical-align:middle;margin:0px 0px 0px 0px;" />
+  <img src="{{ site.baseurl }}/assets/images/no-users-performing-queries.png" alt="Number of users performing queries by gender" style="width:100%;vertical-align:middle;margin:0px 0px 0px 0px;" />
   <em p style="font-size:11px">Figure 9.</em>
 </figure> 
 <br>

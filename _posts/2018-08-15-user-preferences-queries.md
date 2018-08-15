@@ -11,14 +11,14 @@ Our <a href="https://tascha.github.io/Mobile-Reading-Data-Exchange/2018/08/08/us
 Before digging into the types of queries being performed, it’s important to understand who is performing these queries. Is the function used often enough to merit consideration? And, if so, does it reveal more information about any particular group of users? Figure 7 shows that the search function is being used across the top 10 countries, with a raw count of searches varying from over 1.8 million in Nigeria down to 88,344 in India. These searches are being made by a fairly large number of users. Figure 8 shows the number of unique IDs (either user ID or client ID) associated with at least one query across the top ten countries. This time the numbers vary from 440,100 unique IDs in South Africa to 30,110 unique IDs in Zimbabwe. These results need to be qualified slightly, since a client ID may not be equivalent to a single user – one unregistered user could potentially be using multiple devices, which would inflate these numbers. Nevertheless, the number of queries, and IDs associated with queries, seems high enough to justify further analysis.
 
 <figure>
-  <img src="{{ site.baseurl }}/assets/images/raw-count-searches-by-country.png" alt="Raw Count of Searches by Country" style="max-width:100%;vertical-align:middle;margin:0px 0px 0px 0px;" />
+  <img src="{{ site.baseurl }}/assets/images/raw-count-searches-by-country.png" alt="Raw Count of Searches by Country" style="width:100%;vertical-align:middle;margin:0px 0px 0px 0px;" />
   <figcaption>Figure 7.</figcaption>
 </figure> 
 <br>
 
 <figure>
-  <img src="{{ site.baseurl }}/assets/images/no-ids-with-one-query-top10.png" alt="IDs with at least one query" style="max-width:100%;vertical-align:middle;margin:0px 0px 0px 0px;" />
-  <em p style="font-size:11px">Figure 8.</em>
+  <img src="{{ site.baseurl }}/assets/images/no-ids-with-one-query-top10.png" alt="IDs with at least one query" style="width:100%;vertical-align:middle;margin:0px 0px 0px 0px;" />
+  <figcaption>Figure 8.</figcaption>
 </figure> 
 <br>
 These raw counts give us some idea of the overall quantity of queries, but do not shed too much light on the relative popularity of queries amongst different populations. It is not surprising, for example, that Nigeria has a huge number of queries, given that there are many more Worldreader users in Nigeria. It is therefore useful to also look at number of queries performed within each country, relative to the user base of that country. We can also look at differences between the rate of querying by male and female users, to get a better idea of what demographics are using the capability. Figure 9 shows the number of unique IDs within a country that have made a query, divided by the total number of unique IDs within that country. Generally, it seems that about 5% of unique IDs across these countries have made at least one query. The query function appears to be the most widely popular in India (6.3%) and South Africa (6.03%), and least popular in Ethiopia (2.18%), Cote d’Ivoire (2.42%) and Uganda (2.5%). Figure 9 also shows that querying is much more widespread amongst registered users, as compared to unregistered users – a much higher percentage of female and male IDs are associated with queries, as compared to the broader population of users[^1]. The percentage of male and female users performing queries is relatively equal across many of the countries. Males perform queries at a high rate in Cote d’Ivoire, India, and Zimbabwe; females perform queries at a higher rate in Ethiopia, Ghana, Kenya, Nigeria, Uganda, and Zambia; and the rate is exactly equal in South Africa. In most of these countries, 15 – 20% of male and female registered users have performed at least 1 query.
@@ -27,23 +27,23 @@ These raw counts give us some idea of the overall quantity of queries, but do no
 
 <figure>
   <img src="{{ site.baseurl }}/assets/images/no-users-performing-queries.png" alt="Number of users performing queries by gender" style="width:100%;vertical-align:middle;margin:0px 0px 0px 0px;" />
-  <em p style="font-size:11px">Figure 9.</em>
+  <figcaption>Figure 9.</figcaption>
 </figure> 
 <br>
 
 Now that we know <i>who</i> is making at least 1 query, it’s also interesting to see how many queries, on average, each of these populations makes. This is indicated in Figure 10, which shows the mean number of queries performed by users that have made at least 1 query. The most interesting result here is that female users tend to make many more queries than their male counterparts – in some countries, they are using the function, on average, twice as much! This supports some of our <a href="https://tascha.github.io/Mobile-Reading-Data-Exchange/2018/07/19/gender-access-and-reading-behavior.html">earlier findings</a>, that female users tend to engage with the Worldreader application more than male users. Overall rates vary from 2.8 queries per ID in Uganda, up to 4.9 queries per ID in Nigeria. Female rates vary from 4.3 queries per user in India up to 10.7 queries per user in Nigeria, and male rates from 3.9 in Zambia to 5.3 in Nigeria. Taken together, these results demonstrate that queries are quite popular amongst registered users, that both males and females engage with the search function, that females tend to perform more queries once they’ve engaged with the function, and that the popularity of searching varies by country. Given these conclusion it does seem as though an analysis of queries could give good insight into user preferences, particularly for registered users. The high percentage of registered users involved in searching is particularly exciting, since it also allows us to examine gender differences in search terms.
 
 <figure>
-  <img src="{{ site.baseurl }}/assets/images/mean-queries-per-user.png" alt="Mean Queries Per User by Gender" style="max-width:800px;vertical-align:middle;margin:0px 0px 0px 0px;" />
-  <em p style="font-size:11px">Figure 10.</em>
+  <img src="{{ site.baseurl }}/assets/images/mean-queries-per-user.png" alt="Mean Queries Per User by Gender" style="width:800px;vertical-align:middle;margin:0px 0px 0px 0px;" />
+  <figcaption>Figure 10.</figcaption>
 </figure> 
 <br>
 
 So, what is it that users are searching for? Figure 11 is a word cloud of the most popular search terms across the top ten countries. It was created by making all queries lowercase (so that capitalization didn’t affect the aggregation of terms), aggregating the number of unique IDs associated with each query term, filtering for terms that are associated with at least 1,000 unique IDs, and then visualizing the terms so that larger font and darker text corresponds with larger numbers of unique IDs. I would note, at the outset, that this method could be dramatically improved upon. For example, this method does not account for language differences, meaning that an English search term will not be aggregated with its exact translation in, for example, French. Given that English is spoken in most, but not all, of the top ten countries, it is likely that non-English searches are underrepresented in the results. Additionally, we would get much more robust and interpretable results if we designed and implemented a more rigorous content analysis methodology. Currently, very similar search terms (such as ‘romance’ and ‘romantic’) are counted separately from one another. It would be very useful to develop a framework whereby these similar terms could be aggregated together. This could form a future project for Worldreader, to better leverage these data. For now, though, we’ll take a look at the basic word cloud, to see what it offers us in terms of preliminary exploration.
 
 <figure>
-  <img src="{{ site.baseurl }}/assets/images/all-queries.png" alt="All Queries Word Cloud" style="max-width:800px;vertical-align:middle;margin:0px 0px 0px 0px;" />
-  <em p style="font-size:11px">Figure 11.</em>
+  <img src="{{ site.baseurl }}/assets/images/all-queries.png" alt="All Queries Word Cloud" style="width:100%;vertical-align:middle;margin:0px 0px 0px 0px;" />
+  <figcaption>Figure 11.</figcaption>
 </figure> 
 <br>
 
@@ -66,14 +66,14 @@ It is not surprising that four of these queries – sex, love, <i>Romeo and Juli
 These results can easily be divided by gender, to explore whether there are any clear gender differences in reading interest. Figure 12 shows popular male search terms within the top ten countries (filtered so that only terms associated with at least 100 unique user IDs appear), and Figure 13 shows popular female search terms. Popular search terms for the males are quite similar to that of the overall population. Sex (664 users) is easily the most popular search term, with love (390) coming in third most popular. <i>Things Fall Apart</i> (395) and its author, Chinua Achebe (334) fall very close to the top, and the terms Bible, biology, Morgan Rice, <i>Animal Farm</i>, and <i>Romeo and Juliet</i> all remain as top ten terms. The only new term that emerges is <i>The River and the Source</i>, which is interesting given the content of this book. Written by Kenyan author Margaret Ogola, this award-winning book has been described as a feminist work that explores the role of women in Kenyan society (Kamau 2017). It is interesting that a book that follows three generations of women would show up as popular amongst male users, but not in the female results. In contrast, the female word cloud shows a very clear shift to romance novels. Romance author Heather Graham (565 users) overtakes both sex (329) and love (317) as the most popular search term, and all of the authors that show up are both women and, with the exception of Morgan Rice, known for their work in romance. These include Nora Roberts, Danielle Steel, Maya Blake, Maisey Yates, Sharon Kendrick, Dani Collins, and Lucy Monroe. Harlequin and <i>Fifty Shades of Grey</i> round out the romance-focus. The other new terms that appear within the female results include <i>Twilight</i>, <i>Harry Potter</i>, and vampire, which may indicate some leanings toward fantasy and young adult novels. Even at this basic level, these results provide valuable information about what types of books are popular amongst Worldreader users across these geographies. They may also present insights into differences between male and female preferences, which could be used to design specific reading programs targeted at different gender groups.
 
 <figure>
-  <img src="{{ site.baseurl }}/assets/images/male-queries.png" alt="Male Queries Wordcloud" style="max-width:800px;vertical-align:middle;margin:0px 0px 0px 0px;" />
-  <em p style="font-size:11px">Figure 12.</em>
+  <img src="{{ site.baseurl }}/assets/images/male-queries.png" alt="Male Queries Wordcloud" style="width:100%;vertical-align:middle;margin:0px 0px 0px 0px;" />
+  <figcaption>Figure 12.</figcaption>
 </figure> 
 <br>
 
 <figure>
-  <img src="{{ site.baseurl }}/assets/images/female-queries.png" alt="Female Queries Wordcloud" style="max-width:800px;vertical-align:middle;margin:0px 0px 0px 0px;" />
-  <em p style="font-size:11px">Figure 13.</em>
+  <img src="{{ site.baseurl }}/assets/images/female-queries.png" alt="Female Queries Wordcloud" style="width:100%;vertical-align:middle;margin:0px 0px 0px 0px;" />
+  <figcaption>Figure 13.</figcaption>
 </figure> 
 <br>
 
@@ -82,14 +82,14 @@ Beyond these applied results, though, content analysis of user queries could als
 The questions of importance to us, then, center around why Worldreader users seek out the love category. What do they want to get out of these love books? What information are they really seeking when they search for sex-related content? Are there gendered differences related to these searches? In order to fully answer these, it would require a focused research project involving rigorous content analysis and interviews of Worldreader users. For the time being, though, we’ll have to settle for some initial evidence that these are interesting questions to ask within the context of Worldreader data. We filtered our dataset so that it only included queries that contained the text ‘sex’ in some way. [Footnote: This was only performed with the English word ‘sex’ – another constraint to the research.] Surveying the list, it was immediately clear that users had diverse interests related to sex, from the purely pornographic (e.g., sexy porn; sex picture; sex movie) to interests in instruction (e.g., 14 things you should know about sex; how to perform sex; sexual positions; sex for the first time), relationships (e.g., sex and marriage; sex and romance), health (e.g., sexual health; are you ready for sex; 6 things do after sex for a healthy vagina), and gendered violence (e.g., sexual abuse; female victim of sexual violence; sex and violence in the media; sexual and domestic violence). Many of these topics could fuel their own research study. Beyond analyzing these terms generally, it is also possible to filter them by country and by gender. For example, Figure 14 shows the most popular search terms that contain the text ‘sex’ for men in the top ten countries, and Figure 15 shows the most popular search terms for females. In each of these word clouds we filtered out the query for ‘sex’ alone, since it far eclipsed all other queries. We also required that the query was performed by at least 2 distinct user IDs. While we haven’t had much time to analyze these results, two initial thoughts jump to mind. First, even across ten countries, the number of registered users making these specific queries about sex is relatively small – only about 30 users, maximum, for either gender. Developing a more robust content analysis method may help to increase these numbers, since it would allow us to conceptually aggregate different types of queries (e.g., queries related to sexual health, queries related to sexual violence, etc.). However, it may also be the case that users do not often query for sex-related concepts when they are logged into their account. This could constrain the amount of gender-based data we can perform related to sex-related queries. Second, it is interesting to see that the top search terms are quite similar between male and female users. Both sets of users appear to have the highest interest in sex stories/books, sexual intercourse, love and sex, and sex positions. Some of the smaller queries might point to interesting differences in focus – for example, sex worker and safe sex in the female results – but the number of queries is just too small to reach much of a conclusion at this point.
 
 <figure>
-  <img src="{{ site.baseurl }}/assets/images/sex-queries-male.png" alt="Male Queries of Sex Wordcloud" style="max-width:800px;vertical-align:middle;margin:0px 0px 0px 0px;" />
-  <em p style="font-size:11px">Figure 14.</em>
+  <img src="{{ site.baseurl }}/assets/images/sex-queries-male.png" alt="Male Queries of Sex Wordcloud" style="width:100%;vertical-align:middle;margin:0px 0px 0px 0px;" />
+  <figcaption>Figure 14.</figcaption>
 </figure> 
 <br>
 
 <figure>
-  <img src="{{ site.baseurl }}/assets/images/sex-queries-female.png" alt="Female Queries of Sex Wordcloud" style="max-width:800px;vertical-align:middle;margin:0px 0px 0px 0px;" />
-  <em p style="font-size:11px">Figure 15.</em>
+  <img src="{{ site.baseurl }}/assets/images/sex-queries-female.png" alt="Female Queries of Sex Wordcloud" style="width:100%;vertical-align:middle;margin:0px 0px 0px 0px;" />
+  <figcaption>Figure 15.</figcaption>
 </figure> 
 <br>
 

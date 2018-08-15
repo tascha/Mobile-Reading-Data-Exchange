@@ -94,3 +94,19 @@ The questions of importance to us, then, center around why Worldreader users see
 <br>
 
 In summary, the past two posts have examined the reading preferences of Worldreader users, both in terms of the category of books being read and the searches users are performing within the application. This provides important insights into the types of books, and even the specific titles and authors, that users are interested in, and these insights can be broken down to focus on specific geographies or user groups. Already, this preliminary analysis could be used to drive Worldreader’s acquisition of new books, or to encourage inclusion of popular content (such as romance novels) within literacy programs in these countries. We also found that these data have a lot of potential for broader sociological research. However, it would be ideal if the data were improved, either through the re-categorization of books using a new schema or through the use of a more robust content analysis methodology. Beyond this, Worldreader may be able to perform further analysis on the query data, to see how effective the query function is at directing users to books that they want to read. At any rate, these data are quite rich, and this work points to a lot of other valuable research that Worldreader might consider in the future!
+
+References
+
+Alter A. 2017. A Wave of New Fiction from Nigeria, as Young Writers Experiment with New Genres. The New York Times. Nov. 23. <a href="https://nyti.ms/2hYRFzJ">https://nyti.ms/2hYRFzJ</a>
+
+Charles R. 2017. Stop dissing romance novels already. The Washington Post. 7 August. <a href="https://www.washingtonpost.com/entertainment/books/stop-dissing-romance-novels-already/2017/08/07/960e8bda-7abe-11e7-83c7-5bd5460f0d7e_story.html?utm_term=.c7238947aba3">https://www.washingtonpost.com/entertainment/books/stop-dissing-romance-novels-already/2017/08/07/960e8bda-7abe-11e7-83c7-5bd5460f0d7e_story.html?utm_term=.c7238947aba3</a>
+
+English, Jessica. 2017. Reading the Romance: Through the Eyes of a Millennial Feminist. EWU Masters Thesis Collection. 456. Masters Thesis. Dept. of Communication. Eastern Washington University. <a href="http://dc.ewu.edu/theses/456">http://dc.ewu.edu/theses/456</a>
+
+Faircloth, Kelly. 2017. Here’s How Not to Critique Romance Novels. Jezebel. 6 Oct. <a href="https://jezebel.com/heres-how-not-to-critique-romance-novels-1819188174">https://jezebel.com/heres-how-not-to-critique-romance-novels-1819188174</a>
+
+Kamau, Lucy. 2017. Place of women in society and other themes in 'The River and the Source'. Daily Nation. Last acc. 15 Aug 2018. <a href="https://www.nation.co.ke/lifestyle/weekend/themes-in-The-River-and-the-Source/1220-4026226-i47hen/index.html">https://www.nation.co.ke/lifestyle/weekend/themes-in-The-River-and-the-Source/1220-4026226-i47hen/index.html</a>
+
+Iqbal, Kundan. 2014. The impact of romance novels on women’s sexual and reproductive health. Journal of Family Planning and Reproductive Health Care. 40: 300-02.
+
+Tapper, Olivia. 2014. Romance and Innovation in Twenty-First Century Publishing. Publishing Research Quarterly. 30: 249-59.

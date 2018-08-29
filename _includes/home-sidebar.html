@@ -18,7 +18,7 @@ We are conducting data analysis and creating visualizations of <a href="https://
 <!-- Blog Post Snippets | Delete or comment out if no blog -->
 <h3>Blog Index:</h3>
 <ul>
-{% for post in site.posts offset: 0 limit: 12 %}
+{% for post in site.posts offset: 0 limit: 20 %}
 	<section>
 		<li><a href="{{ site.baseurl }}{{ post.url }}" style="font-size:14px;"><time itemprop="dateCreated" datetime="{{post.date}}">{{ post.date | date:"%B %-d, %Y" }}</time>: {{ post.title }}</a></li>
 	</section>

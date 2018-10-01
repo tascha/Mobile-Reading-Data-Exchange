@@ -86,7 +86,7 @@ One of the important aspects of analyzing large datasets is to understand the co
     <td class="tg-lqy6">16,819</td>
   </tr>
   <tr>
-    <td class="tg-6k2t">Ivory Coast</td>
+    <td class="tg-6k2t">Côte d'Ivoire</td>
     <td class="tg-mb3i">12,830</td>
   </tr>
   <tr>
